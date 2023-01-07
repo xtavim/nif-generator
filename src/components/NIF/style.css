@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  position: relative;
+}
+
+.nif {
+  padding: 2rem;
+
+  width: 350px;
+
+  border-radius: 1rem;
+
+  font-size: 2.75rem;
+
+  background-color: #292929;
+
+  z-index: 1;
+
+  user-select: none;
+  -moz-user-select: none;
+}
+
+.nif:hover {
+  cursor: pointer;
+}
+
+.nif:hover .copyToClipboard {
+  opacity: 1;
+}
